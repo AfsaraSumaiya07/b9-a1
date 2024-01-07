@@ -1,17 +1,17 @@
 *{
-    margin left: 0 px;
+    margin : 0 px;
     padding: 0 px;
-    
 }
 body{
     font-family: 'Inter', sans-serif; 
 }
 /* nav related styles */
+
 .nav-container{
     font-family: 'Merriweather';
     color: #FFF;
-     background-image: url("./resources/Banner\ Image.png");
-   /* background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0) 100%),url("./resources/Banner\ Image.png") */
+    background-image: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0) 100%),url("./resources/Banner\ Image.png");
+    background-size: cover;
     border-radius:16px;
     width: 1320px;
     height: 600px;
@@ -26,4 +26,33 @@ body{
     font-size: 72px;
     font-weight: 900;
    
+}
+/* deal related section */
+.deals{
+    text-align: center;
+    margin: 100px;
+}
+.off{
+    color: #F00;
+    /* text-align: center; */
+    font-size: 80px;
+    font-weight: 700;
+    padding-bottom:50px ;
+}
+.holiday{
+    color: #F00;
+    font-size: 25px;
+    font-weight: 500;
+}
+.categories{
+    color: #070211;
+    font-size: 50px;
+    font-weight: 700;
+}
+.img{
+    background-image: url("./resources/New\ Year\ Photo.png");
+    background-size: cover;
+    background-position: center; 
+    height: 700px;
+    margin-top: 50px;
 }
