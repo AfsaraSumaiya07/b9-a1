@@ -1,0 +1,29 @@
+*{
+    margin left: 0 px;
+    padding: 0 px;
+    
+}
+body{
+    font-family: 'Inter', sans-serif; 
+}
+/* nav related styles */
+.nav-container{
+    font-family: 'Merriweather';
+    color: #FFF;
+     background-image: url("./resources/Banner\ Image.png");
+   /* background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0) 100%),url("./resources/Banner\ Image.png") */
+    border-radius:16px;
+    width: 1320px;
+    height: 600px;
+    text-align: center;
+}
+.nav-text1{
+    font-size: 32px;
+    font-weight: 400;
+    padding-top: 170px; 
+}
+.nav-text2{
+    font-size: 72px;
+    font-weight: 900;
+   
+}
