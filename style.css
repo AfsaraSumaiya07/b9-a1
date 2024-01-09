@@ -89,11 +89,14 @@ body {
   padding-top: 20px;
 }
 .welc-text3 {
-  color: #fff;
   font-size: 20px;
   font-weight: 700;
   text-transform: uppercase;
   padding-top: 50px;
+}
+.welc-text3>a{
+  text-decoration: none;
+  color: #fff;
 }
 .welc-img2 {
   width: 319.83px;
@@ -288,6 +291,9 @@ button {
   width: 424px;
   height: 450px;
   border-radius: 16px;
+}
+.box:hover{
+  transform: scale(0.9,0.9);
 }
 /* subscribe related section  */
 .subscribe {
